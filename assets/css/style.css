@@ -222,11 +222,12 @@
   #photos img {
     width: 100%;
     line-height: 1em;
- 
+
   }
 
   #photos {
-    line-height: 0; /* removes default line height */
+    line-height: 0;
+    /* removes default line height */
   }
 
   /* Footer */
@@ -242,6 +243,18 @@
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+  }
+
+  /* Media query: large or landscape phones (576px and up */
+  @media screen and (min-width: 576px) {
+    #photos {
+
+      column-count: 2;
+      column-gap: 0;
+
+    }
+
+
   }
 
   /* Media query: tablets and larger (768px and up */
@@ -306,6 +319,12 @@
       align-self: flex-end;
     }
 
+    /* Gallery */
+
+    #photos {
+      column-count: 3;
+    }
+
   }
 
   /* Media query: laptops and desktops (992px and up */
@@ -318,6 +337,12 @@
 
       border-bottom: 1px solid #3a3a3a;
       /* adds line under mouseover link */
+    }
+
+    /* Gallery */
+
+    #photos {
+      column-count: 4;
     }
 
   }
