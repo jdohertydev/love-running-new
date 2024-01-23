@@ -161,6 +161,26 @@
     margin: 5px 0;
   }
 
+  #circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url(../images/reasons-image.webp)  no-repeat top center/cover;
+    margin-bottom: 20px; /* space between bottom */
+    border-radius: 50%; /* makes image a circle */
+    max-width: 300px;
+    max-height: 300px;
+
+  }
+
+  #benefits-image { 
+    /* this move the image into the centre when phone is rotated*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
   /* Footer */
   #social-networks {
     text-align: center;
