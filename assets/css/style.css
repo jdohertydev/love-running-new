@@ -352,14 +352,22 @@ main {
         top: 150px;
     }
 
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
-
     .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
     }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button {
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 15px 32px;
+        font-size: 100%;
+        background-color: #454b1b;
+        color: #fafafa;
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
